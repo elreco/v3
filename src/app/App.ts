@@ -4,6 +4,9 @@ import ReactVector from '../icons/react.svg'
 import PHPVector from '../icons/php.svg'
 import KotlinVector from '../icons/kotlin.svg'
 import GoVector from '../icons/golang.svg'
+import LaravelVector from '../icons/laravel.svg'
+import CakePHPVector from '../icons/cakephp.svg'
+import VueJSVector from '../icons/vuejs.svg'
 
 export type Dictionary<V> = {
   [key: string]: V
@@ -17,7 +20,10 @@ export const logos: Dictionary<string> = {
   React: ReactVector,
   PHP: PHPVector,
   Kotlin: KotlinVector,
-  Go: GoVector
+  Go: GoVector,
+  Laravel: LaravelVector,
+  CakePHP: CakePHPVector,
+  VueJS: VueJSVector
 }
 
 export interface Project {
@@ -50,3 +56,32 @@ export const projects: Dictionary<Project> = {
 }
 
 export const featured = ["fortnitetracker", "shoplalala"].map(item => projects[item])
+
+export interface Skill {
+  name: string
+  logo: string
+}
+
+export const skills: Dictionary<Skill> = {
+  apache: {
+    name: "Laravel",
+    logo: "Laravel",
+},
+cakephp: {
+  name: "Cake PHP",
+  logo: "CakePHP",
+},
+javascript: {
+  name: "JavaScript",
+  logo: "JavaScript",
+},
+react: {
+  name: "React",
+  logo: "React",
+},
+vuejs: {
+  name: "VueJS",
+  logo: "VueJS",
+}
+
+}

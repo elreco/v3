@@ -23,6 +23,7 @@ import {
 import { AboutView } from './views/AboutView'
 import { ContactView } from './views/ContactView'
 import { ProjectView } from './views/ProjectView'
+import { SkillsView } from './views/SkillsView'
 
 function NavigationBarComponent({ history }: PropsWithChildren<{}> & RouteComponentProps) {
   const { pathname } = useLocation()
@@ -35,9 +36,13 @@ function NavigationBarComponent({ history }: PropsWithChildren<{}> & RouteCompon
       <EuiTab onClick={() => history.push('/projects')} isSelected={pathname === '/projects'}>
         Projects
       </EuiTab>
+      <EuiTab onClick={() => history.push('/skills')} isSelected={pathname === '/skills'}>
+        Skills
+      </EuiTab>
       <EuiTab onClick={() => history.push('/contact')} isSelected={pathname === '/contact'}>
         Contact & Links
       </EuiTab>
+
     </EuiTabs>
   )
 }
@@ -95,6 +100,9 @@ export function App() {
           <EuiSpacer />
 
           <Switch>
+            <Route path="/skills">
+              <SkillsView />
+            </Route>
             <Route path="/projects">
               <ProjectView />
             </Route>
