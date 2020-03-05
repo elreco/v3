@@ -21,14 +21,12 @@ export function AboutView() {
 
       <EuiText>
         <p style={{ fontSize: 20 }}>
-          Hi, I'm supergrecko, a high school student from Norway. I have a deep interest for programming and compiler
-          design. I'm an aspiring full-stack developer, working with React on the frontend and Kotlin or TypeScript on
-          the server. This is my site where you can find all my work.
+          Hi, I'm Alexandre LE CORRE, a developer from France. I have a deep interest for programming. I'm a full-stack developer, working with Laravel or CakePHP on the server and React or Vue.js on the frontend. This is my site where you can find all my work.
         </p>
 
         <p style={{ fontSize: 20 }}>
           Looking to contact me? My socials are <EuiLink
-          href="/contact">here.</EuiLink> Interested in my resume? <EuiLink href="mailto:me@supergrecko.com">shoot me an
+          href="/contact">here.</EuiLink> Interested in my resume? <EuiLink href="mailto:a.elreco@gmail.com">shoot me an
           email!</EuiLink>
         </p>
       </EuiText>

@@ -28,12 +28,12 @@ export function ContactView() {
           <EuiDescriptionList>
             <EuiDescriptionListTitle>Business Email</EuiDescriptionListTitle>
             <EuiDescriptionListDescription>
-              <EuiLink href="mailto:me@supergrecko.com">me@supergrecko.com</EuiLink>
+              <EuiLink href="mailto:a.elreco@gmail.com">a.elreco@gmail.com</EuiLink>
             </EuiDescriptionListDescription>
 
             <EuiDescriptionListTitle>Twitter</EuiDescriptionListTitle>
             <EuiDescriptionListDescription>
-              <EuiLink href="https://twitter.com/supergrecko">@supergrecko</EuiLink>
+              <EuiLink href="https://twitter.com/el__reco">@el__reco</EuiLink>
             </EuiDescriptionListDescription>
           </EuiDescriptionList>
         </EuiFlexItem>
@@ -42,11 +42,11 @@ export function ContactView() {
           <EuiDescriptionList>
             <EuiDescriptionListTitle>GitHub</EuiDescriptionListTitle>
             <EuiDescriptionListDescription>
-              <EuiLink href="https://github.com/supergrecko">@supergrecko</EuiLink>
+              <EuiLink href="https://github.com/elreco">@elreco</EuiLink>
             </EuiDescriptionListDescription>
 
             <EuiDescriptionListTitle>Discord</EuiDescriptionListTitle>
-            <EuiDescriptionListDescription>supergrecko#3434</EuiDescriptionListDescription>
+            <EuiDescriptionListDescription>elreco#6124</EuiDescriptionListDescription>
           </EuiDescriptionList>
         </EuiFlexItem>
       </EuiFlexGroup>

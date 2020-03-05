@@ -28,42 +28,25 @@ export interface Project {
 }
 
 export const projects: Dictionary<Project> = {
-  stackvm: {
-    language: "Kotlin",
-    title: "StackVM",
-    slug: "Tiny arithmetic virtual machine built in Kotlin Native.",
-    repo: "supergrecko/StackVM"
-  },
-  v3: {
-    language: "React",
-    title: "v3",
-    slug: "The third remake of my portfolio (this site). Built using React & Typescript with Elastic UI",
-    repo: "supergrecko/v3"
-  },
-  learnterra: {
-    language: "TypeScript",
-    title: "LearnTerra",
-    slug: "Online Legends of Runeterra replay and collaboration platform. Built for the 2019 Riot API Challenge.",
-    repo: "supergrecko/LearnTerra"
-  },
-  riotquest: {
+  fortnitetracker: {
     language: "PHP",
-    title: "RiotQuest",
-    slug: "Archived, was an open source API library for the Riot Games API, built for Laravel 6+ & PHP 7.1+",
-    repo: "supergrecko/riot-quest"
+    title: "Tracker Fortnite",
+    slug: "Statistics provider for Fortnite built with Laravel. You can also view your match histories.",
+    repo: "https://tracker.fortnitefrance.eu"
   },
-  leagueconnect: {
-    language: "TypeScript",
-    title: "LeagueConnect",
-    slug: "Open source node module for interacting with the League of Legends Client APIs",
-    repo: "supergrecko/league-connect"
+  shoplalala: {
+    language: "PHP",
+    title: "Shoplalala",
+    slug: "Shoplalala is a cloud-based, SaaS shopping cart solution like Shopify. A monthly fee gives you access to build you own E-commerce website.",
+    repo: "https://www.shoplalala.com"
   },
-  leaguevoice: {
+  fortniteapi: {
     language: "JavaScript",
-    title: "LeagueVoice",
-    slug: "Google action to control the League of Legends client via your voice! Built for the 2018 Riot API Challenge.",
-    repo: "supergrecko/LeagueVoice"
-  }
+    title: "Fortnite API",
+    slug: "I made an API for Fortnite with reverse engeneering and Express framework. This API is available on the RapidAPI marketplace.",
+    repo: "https://rapidapi.com/elreco/api/fortnite-api"
+  },
+
 }
 
-export const featured = ["v3", "riotquest", "leagueconnect"].map(item => projects[item])
+export const featured = ["fortnitetracker", "shoplalala"].map(item => projects[item])

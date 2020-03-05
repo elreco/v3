@@ -72,19 +72,19 @@ export function App() {
                 <EuiFlexItem>
                   <EuiShowFor sizes={['s']}>
                     <h1 style={{
-                      fontSize: 60,
-                    }}>supergrecko</h1>
+                      fontSize: 35,
+                  }}>Alexandre Le Corre</h1>
                   </EuiShowFor>
                   <EuiHideFor sizes={['s']}>
                     <h1 style={{
-                      fontSize: 72,
-                    }}>supergrecko</h1>
+                      fontSize: 50,
+                    }}>Alexandre Le Corre</h1>
                   </EuiHideFor>
                   <EuiSpacer size="m" />
 
                   <p style={{
                     fontSize: 24
-                  }}>high school student, self-taught programming hobbyist</p>
+                }}>fullstack developer, self-taught programming hobbyist</p>
                 </EuiFlexItem>
               </EuiFlexGroup>
             </EuiFlexItem>

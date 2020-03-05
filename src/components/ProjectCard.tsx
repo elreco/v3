@@ -14,7 +14,7 @@ export function ProjectCard({ project }: PropsWithChildren<{ project: Project }>
         icon={
           <EuiIcon size="xl" type={logos[project.language]} />
         }
-        href={`https://github.com/${project.repo}`}
+        href={`${project.repo}`}
         layout="horizontal"
         title={project.title}
         description={project.slug}
