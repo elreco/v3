@@ -53,9 +53,9 @@ export const projects: Dictionary<Project> = {
     repo: "https://rapidapi.com/elreco/api/fortnite-api"
   },
   lorstats: {
-      language: "JavaScript",
-      title: "Fortnite API",
-      slug: "I made an API for Fortnite with reverse engeneering and Express framework. This API is available on the RapidAPI marketplace.",
+      language: "React",
+      title: "Legends of Runeterra Cards",
+      slug: "Learn about the cards of Legends of Runeterra. I am retrieving the datas from Riot's official Api.",
       repo: "https://lorstats.net/"
   }
 
