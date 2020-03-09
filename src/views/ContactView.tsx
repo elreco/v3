@@ -49,6 +49,14 @@ export function ContactView() {
             <EuiDescriptionListDescription>elreco#6124</EuiDescriptionListDescription>
           </EuiDescriptionList>
         </EuiFlexItem>
+        <EuiFlexItem>
+          <EuiDescriptionList>
+            <EuiDescriptionListTitle>LinkedIn</EuiDescriptionListTitle>
+            <EuiDescriptionListDescription>
+              <EuiLink href="https://www.linkedin.com/in/alexandre-le-corre/">alexandre-le-corre</EuiLink>
+            </EuiDescriptionListDescription>
+          </EuiDescriptionList>
+        </EuiFlexItem>
       </EuiFlexGroup>
     </Fragment>
   )

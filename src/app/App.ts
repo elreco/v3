@@ -61,7 +61,7 @@ export const projects: Dictionary<Project> = {
 
 }
 
-export const featured = ["fortnitetracker", "shoplalala", "fortniteapi"].map(item => projects[item])
+export const featured = ["fortniteapi" , "shoplalala", "fortnitetracker"].map(item => projects[item])
 
 export interface Skill {
   name: string
