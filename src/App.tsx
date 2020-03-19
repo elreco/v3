@@ -40,7 +40,7 @@ function NavigationBarComponent({ history }: PropsWithChildren<{}> & RouteCompon
       <EuiTab onClick={() => history.push('/skills')} isSelected={pathname === '/skills'}>
         Skills
       </EuiTab>
-      <EuiTab onClick={() => history.push('/cv.pdf')}>
+      <EuiTab onClick={() => window.location.replace("/cv.pdf")}>
         CV <EuiIcon type="link" />
       </EuiTab>
       <EuiTab onClick={() => history.push('/contact')} isSelected={pathname === '/contact'}>

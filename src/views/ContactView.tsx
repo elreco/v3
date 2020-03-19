@@ -55,8 +55,6 @@ export function ContactView() {
             <EuiDescriptionListDescription>
               <EuiLink href="https://www.linkedin.com/in/alexandre-le-corre/">alexandre-le-corre</EuiLink>
             </EuiDescriptionListDescription>
-          </EuiDescriptionList>
-            <EuiDescriptionList>
               <EuiDescriptionListTitle>My CV</EuiDescriptionListTitle>
               <EuiDescriptionListDescription>
                 <EuiLink href="/cv.pdf" target="_blank">cv.pdf</EuiLink>
