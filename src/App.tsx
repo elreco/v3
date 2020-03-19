@@ -17,7 +17,8 @@ import {
   EuiSpacer,
   EuiFlexGroup,
   EuiFlexItem,
-  EuiShowFor, EuiHideFor
+  EuiShowFor, EuiHideFor,
+  EuiIcon
 } from '@elastic/eui'
 
 import { AboutView } from './views/AboutView'
@@ -38,6 +39,9 @@ function NavigationBarComponent({ history }: PropsWithChildren<{}> & RouteCompon
       </EuiTab>
       <EuiTab onClick={() => history.push('/skills')} isSelected={pathname === '/skills'}>
         Skills
+      </EuiTab>
+      <EuiTab onClick={() => history.push('/cv.pdf')}>
+        CV <EuiIcon type="link" />
       </EuiTab>
       <EuiTab onClick={() => history.push('/contact')} isSelected={pathname === '/contact'}>
         Contact & Links

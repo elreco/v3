@@ -56,15 +56,14 @@ export function ContactView() {
               <EuiLink href="https://www.linkedin.com/in/alexandre-le-corre/">alexandre-le-corre</EuiLink>
             </EuiDescriptionListDescription>
           </EuiDescriptionList>
+            <EuiDescriptionList>
+              <EuiDescriptionListTitle>My CV</EuiDescriptionListTitle>
+              <EuiDescriptionListDescription>
+                <EuiLink href="/cv.pdf" target="_blank">cv.pdf</EuiLink>
+              </EuiDescriptionListDescription>
+            </EuiDescriptionList>
         </EuiFlexItem>
-        <EuiFlexItem>
-          <EuiDescriptionList>
-            <EuiDescriptionListTitle>My CV</EuiDescriptionListTitle>
-            <EuiDescriptionListDescription>
-              <EuiLink href="/cv.pdf" target="_blank">cv.pdf</EuiLink>
-            </EuiDescriptionListDescription>
-          </EuiDescriptionList>
-        </EuiFlexItem>
+
       </EuiFlexGroup>
     </Fragment>
   )
