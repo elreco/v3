@@ -57,6 +57,14 @@ export function ContactView() {
             </EuiDescriptionListDescription>
           </EuiDescriptionList>
         </EuiFlexItem>
+        <EuiFlexItem>
+          <EuiDescriptionList>
+            <EuiDescriptionListTitle>My CV</EuiDescriptionListTitle>
+            <EuiDescriptionListDescription>
+              <EuiLink href="/cv.pdf" target="_blank">cv.pdf</EuiLink>
+            </EuiDescriptionListDescription>
+          </EuiDescriptionList>
+        </EuiFlexItem>
       </EuiFlexGroup>
     </Fragment>
   )
