@@ -53,15 +53,21 @@ export const projects: Dictionary<Project> = {
     repo: "https://rapidapi.com/elreco/api/fortnite-api"
   },
   lorstats: {
-      language: "React",
-      title: "Legends of Runeterra Cards",
-      slug: "Learn about the cards of Legends of Runeterra. I am retrieving the datas from Riot's official Api.",
-      repo: "https://lorstats.net/"
+    language: "React",
+    title: "Legends of Runeterra Cards",
+    slug: "Learn about the cards of Legends of Runeterra. I am retrieving the datas from Riot's official Api.",
+    repo: "https://lorstats.net/"
+  },
+  codapi: {
+    language: "JavaScript",
+    title: "Call of Duty: Modern Warfare API",
+    slug: "I have made this api with express framework to provide Call of Duty data for multiplayer and warzone through RapidAPI marketplace.",
+    repo: "https://rapidapi.com/elreco/api/call-of-duty-modern-warfare"
   }
 
 }
 
-export const featured = ["fortniteapi" , "fortnitetracker", "shoplalala"].map(item => projects[item])
+export const featured = ["fortniteapi", "fortnitetracker", "shoplalala"].map(item => projects[item])
 
 export interface Skill {
   name: string
@@ -72,22 +78,22 @@ export const skills: Dictionary<Skill> = {
   apache: {
     name: "Laravel",
     logo: "Laravel",
-},
-cakephp: {
-  name: "Cake PHP",
-  logo: "CakePHP",
-},
-javascript: {
-  name: "JavaScript",
-  logo: "JavaScript",
-},
-react: {
-  name: "React",
-  logo: "React",
-},
-vuejs: {
-  name: "VueJS",
-  logo: "VueJS",
-}
+  },
+  cakephp: {
+    name: "Cake PHP",
+    logo: "CakePHP",
+  },
+  javascript: {
+    name: "JavaScript",
+    logo: "JavaScript",
+  },
+  react: {
+    name: "React",
+    logo: "React",
+  },
+  vuejs: {
+    name: "VueJS",
+    logo: "VueJS",
+  }
 
 }
